@@ -12,6 +12,7 @@ function App() {
         <LeftNav/>
       </div>
       <div className='md:w-[85vw] overflow-y-auto'>
+        <h1 className='text-center text-2xl font-[500]'>Bijaylaxmi's mail box</h1>
      <Routes>
       <Route path='/' element={<Inbox/>}/>
       <Route path='/spam' element={<Spam/>}/>

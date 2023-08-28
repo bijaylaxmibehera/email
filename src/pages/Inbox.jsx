@@ -1,7 +1,9 @@
+import { FilterBar } from "../component/FilterBar";
+
 export const Inbox = () => {
   return (
     <>
-      <h1>Inbox</h1>
+      <FilterBar/>
     </>
   );
 };
